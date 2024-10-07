@@ -8,7 +8,6 @@ const Wrapper = () => {
 
     const { isOpen, toggleModal } = useSendModal();
 
-
     const fields = [
         {
             placeholder: 'Имя фамилия',
@@ -53,8 +52,8 @@ const Wrapper = () => {
                         <Button title={'Отправить'} style={'rounded-md text-xs'} onClick={toggleModal}/>
                     </div>
                     <div className={'*:text-gray-400 text-xs flex flex-wrap gap-5 w-full justify-center'}>
-                        <span>e-mail: <a href="javascript:void(0)" className={'underline'}>info@mywebsite.ru</a></span>
-                        <span>тел: <a href="javascript:void(0)" className={'underline'}>+943-232-856-22</a></span>
+                        <span>e-mail: <a href="#" className={'underline'}>info@mywebsite.ru</a></span>
+                        <span>тел: <a href="#" className={'underline'}>+943-232-856-22</a></span>
                     </div>
                 </div>
             </Window>
